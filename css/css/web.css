@@ -1,0 +1,11 @@
+/* The css for the  image  */
+.image{
+    float: right;
+    border-radius: 200px;
+    border: 3px;
+    
+}
+/* shifting the div that holds the image and the text around i to be centered */
+.conatainer-lg{
+    margin-top: 20%;
+}
