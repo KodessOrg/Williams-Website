@@ -1,3 +1,9 @@
+body{
+    justify-content: center;
+    align-items: center;
+    border:2px solid red;
+    
+}
 /* The css for the  image  */
 .image{
     float: right;
@@ -6,13 +12,8 @@
     size: 30;
     
 }
-/* shifting the div that holds the image and the text around i to be centered */
-.container-lg{
-    
-}
-.row-div{
-    
-}
+
+
 .inner-text{
     text-align: left;
 }
