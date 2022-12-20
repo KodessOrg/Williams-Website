@@ -1,16 +1,51 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing:border-box;
+}
+
 body{
     justify-content: center;
     align-items: center;
-    border:2px solid red;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border:none;
+    padding-top: 10px;
+    padding: 0;
+    text-align: center;
     
 }
+.row-div{
+    
+    background-color:whitesmoke;
+    border-radius: 20px;
+}
+
+/*the navigation buttons*/
+.nav-Buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 1rem;
+    margin-bottom: 20px;
+   
+}
+.navBtn{
+    flex-grow: 1;
+    margin:1rem;
+    border: none;
+    padding: 20px;
+    justify-content: center;
+    cursor: pointer;
+}
+
 /* The css for the  image  */
 .image{
-    float: right;
-    border-radius: 200px;
-    border: 3px solid;
-    size: 30;
-    
+    float: left;
+    border-radius: 20px;
+    size: 20;
+
 }
 
 

@@ -1,0 +1,36 @@
+.CSS-Grid-big-container{
+    
+    margin: 50px;
+    background-color: azure;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    border: 0;
+   flex-grow: 1;
+   
+    
+}
+.same-css{
+display: flex;
+margin: 10px;
+height: 200px;
+width: 300px;
+align-self: center;
+border-radius: 5px;
+border:1px dashed blueviolet;
+justify-content: center;
+align-items: flex-end;
+transition: width, height,justify-content, 250ms ease;
+background-color: #64a4c9; 
+flex-grow: 1; 
+
+}
+
+.same-css:hover{
+   width: 250px;
+   height: 250px;
+   justify-content: flex-end;
+   cursor: pointer;
+
+}
