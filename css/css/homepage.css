@@ -60,3 +60,12 @@ body{
     display: flex;
     gap: 1.5rem;
 }
+
+.fa {
+    display: block;
+    font: normal normal normal 14px/1 FontAwesome;
+   
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+}
