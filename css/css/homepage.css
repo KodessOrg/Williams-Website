@@ -1,62 +1,59 @@
-*{
-    scroll-behavior: smooth;
-    box-sizing:border-box;
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-body{
-    justify-content: center;
-    align-items: flex-end;
-    border: none;
-    display: flex;
-    text-align: center;
-    border:none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
-    
+body {
+  justify-content: center;
+  align-items: flex-end;
+  border: none;
+  display: flex;
+  text-align: center;
+  border: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
 }
-.row-div{
-    display: flex;
-    background-color: aliceblue;
-    gap: 5rem;
-    margin-top: 180px;
-    
+.row-div {
+  display: flex;
+  background-color: aliceblue;
+  gap: 5rem;
+  margin-top: 180px;
 }
 
 /*the navigation buttons*/
-.nav-Buttons{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 1rem;
-    margin-bottom: 20px;
-    flex-direction: column;
-    order: 2;
-
+.nav-Buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem;
+  margin-bottom: 20px;
+  flex-direction: column;
+  order: 2;
 }
-.navBtn{
-    align-items: stretch;
-    margin:1rem;
-    border: none;
-    padding: 20px;
-    justify-content: center;
-    cursor: pointer;
-    margin: 0;
-    size-adjust: 20px;
-    flex-basis: auto;
-    white-space: nowrap;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.navBtn {
+  align-items: stretch;
+  margin: 1rem;
+  border: none;
+  padding: 20px;
+  justify-content: center;
+  cursor: pointer;
+  margin: 0;
+  size-adjust: 20px;
+  flex-basis: auto;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 /* The css for the  image  */
-.image{
-    float: left;
-    border-radius: 20px;
-    size: 10rem;
+.image {
+  float: left;
+  border-radius: 20px;
+  size: 10rem;
 }
 /*homepage content*/
-.home-content-front{
-    flex-grow: 2; 
-    display: flex;
-    gap: 1.5rem;
+.home-content-front {
+  flex-grow: 2;
+  display: flex;
+  gap: 1.5rem;
 }
