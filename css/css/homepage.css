@@ -34,6 +34,7 @@ body{
 
 }
 .navBtn{
+    
     align-items: stretch;
     margin:1rem;
     border: none;
@@ -60,12 +61,18 @@ body{
     display: flex;
     gap: 1.5rem;
 }
-
-.fa {
+.fa.fa-home{
+    display:block
+}
+.fa.fa-briefcase{
     display: block;
-    font: normal normal normal 14px/1 FontAwesome;
-   
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    
+}
+.fa.fa-address-card-o{
+    display: block;
+}
+.fa.fa-rss{
+    display: block;
+}
+.fa.fa-user{
+    display: block;
 }
