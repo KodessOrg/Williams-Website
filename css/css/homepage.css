@@ -1,60 +1,57 @@
 * {
   scroll-behavior: smooth;
-  box-sizing: border-box;
+  box-sizing:border-box;
+  
 }
 
 body {
   justify-content: center;
   align-items: center;
-  border: none;
   display: flex;
-  text-align: center;
   border: none;
+  text-align: center;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: 10px;
   background-color: linen;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
 
 /*the navigation buttons*/
 .nav-Buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin: 1rem;
   margin-bottom: 20px;
   flex-direction: column;
   order: 2;
-  gap: 10px;
-  box-shadow: 20px;
+  gap: 50px;
+  
 }
 .navBtn {
-  align-items: stretch;
-  margin: 1rem;
-  border: none;
   padding: 20px;
   justify-content: center;
   cursor: pointer;
   margin: 0;
   flex-basis: auto;
-  white-space: nowrap;
-  text-transform: uppercase;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: linen;
+  text-decoration: none;
   display: block;
-  transition: width, height, 250ms ease;
+  width: 100%;
 }
 .navBtn::hover {
-  width: 250px;
+  width: 50%;
   height: 250px;
   cursor: pointer;
 }
 
+
 /* The css for the  image  */
 .image {
   float: left;
-  border-radius: 20px;
+  border-radius: 100%;
   size: 50rem;
 }
 /*homepage content*/
@@ -64,21 +61,31 @@ body {
   gap: 1.5rem;
   justify-content: center;
   align-items: center;
-  box-shadow: 0.75em;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  order: 1;
+  border-radius: 1rem;
+  padding: 10px 10px;
 }
 .homepage-text {
-  max-width: 800px;
-  min-width: 500px;
-  box-shadow: 30px;
+  
   border: 20px;
 }
 /*media queries*/
-@media screen and(max-width:500px) {
+@media screen and (max-width:500px) {
+    body{
+      flex-direction: column;
+      height: 0;
+    }
   .home-front-content {
     flex-direction: column;
+    order: 2;
+    display: block;
+    flex-wrap: wrap;
+  }
+  .image{
+    float: none;
+  }
+  .nav-Buttons{
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
